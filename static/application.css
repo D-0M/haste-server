@@ -61,13 +61,13 @@ textarea {
 	right: 0px;
 	z-index: +1000; /* watch out */
 }
-
+/* The background of the logo */
 #box1 {
 	padding: 5px;
 	text-align: center;
 	background: #00222b;
 }
-
+/* The background of functional buttons */
 #box2 {
 	background: #08323c;
 	font-size: 0px;
@@ -89,6 +89,14 @@ textarea {
 	background: url(function-icons.png);
 	width: 32px;
 	height: 37px;
+	display: inline-block;
+	position: relative;
+}
+.settings-button {
+	background: url(settings-icon.png);
+	background-position: center;
+	width: 32px; 
+	 height: 37px;
 	display: inline-block;
 	position: relative;
 }
@@ -153,6 +161,7 @@ textarea {
 #box2 .function.enabled.twitter { background-position: -153px center; }
 #box2 .function.enabled.twitter:hover { background-position: -153px bottom; }
 #box2 .button-picture{ border-width: 0; font-size: inherit; }
+
 
 #messages {
 	position:fixed;
