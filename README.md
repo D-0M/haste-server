@@ -3,9 +3,9 @@
 Haste is an open-source pastebin software written in node.js, which is easily
 installable in any network.  It can be backed by either redis or filesystem,
 and has a very easy adapter interface for other stores.  A publicly available
-version can be found at [hastebin.com](http://hastebin.com)
+version can be found at [paste-in.tk](https://paste-in.tk)
 
-Major design objectives:
+<!-- Major design objectives:
 
 * Be really pretty
 * Be really simple
@@ -18,7 +18,7 @@ to do things like:
 `cat something | haste`
 
 which will output a URL to share containing the contents of `cat something`'s
-STDOUT.  Check the README there for more details and usages.
+STDOUT.  Check the README there for more details and usages. -->
 
 ## Tested Browsers
 
